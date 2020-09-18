@@ -7,13 +7,17 @@ import "./project.css";
 import portfolio from "./img/portfolio.png";
 import todo from "./img/todo.png";
 import voice from "./img/voice.png";
+import zoom from "./img/zoom.png";
 import weather1 from "./img/weather1.jpg";
 
+
 //icons
-import bootstrap from './img/techimg/bootstrap.png'
-import html from './img/techimg/html.png'
-import react from './img/techimg/react.png'
-import js from './img/techimg/js.png'
+import bootstrap from "./img/techimg/bootstrap.png";
+import html from "./img/techimg/html.png";
+import react from "./img/techimg/react.png";
+import js from "./img/techimg/js.png";
+import node from "./img/techimg/node.png";
+import socket from "./img/techimg/socket.png";
 
 const Project = () => {
   return (
@@ -22,8 +26,89 @@ const Project = () => {
       <Row className="mt-5 mb-5  justify-content-center">
         <p className="mainheading">CHECK OUT SOME OF MY WORK.</p>
       </Row>
+      {/* 1st zoom clone */}
+      <Row className="mt-5 mb-4 zoom justify-content-center">
+          
+            <Card className="fircard" style={{}}>
+              <Card.Img variant="top" src={zoom} />
+              <Card.Body>
+                <Card.Title className="proheading">Zoom Meeting Clone</Card.Title>
+                <Accordion>
+                  <Card>
+                    <Card.Header className="extendbutton">
+                      <Accordion.Toggle as={Button} variant="" eventKey="0">
+                        <Button
+                          className="btnexpand"
+                          variant="success"
+                          size="lg"
+                          block
+                        >
+                          Project Details
+                        </Button>
+                      </Accordion.Toggle>
+                    </Card.Header>
+                    <Accordion.Collapse eventKey="0">
+                      <Card.Body>
+                        <Card.Title>Discription :</Card.Title>
+                        <Card.Text>
+                          An application which is used to make real time video call and real time chat which is done by using Nodejs, Socket.io, PeerJs
+                        </Card.Text>
+                        <Card.Title className="pb-2">Tech Used :</Card.Title>
+                        <Card.Text>
+                          <ul>
+                            <li>
+                              <span class="p-2">
+                                <img
+                                  src={html}
+                                  alt="HTML 5"
+                                  class="image-style m-1 rounded"
+                                />
+                                HTML5
+                              </span>
+                            </li>
+                            <li>
+                              <span class="p-2">
+                                <img
+                                  src={bootstrap}
+                                  alt="bootstrap"
+                                  class="image-style m-1 rounded"
+                                  size="1vw"
+                                />
+                                BOOTSTRAP
+                              </span>
+                            </li>
+                            <li>
+                              <span class="p-2">
+                                <img
+                                  src={node}
+                                  alt="node"
+                                  class="image-style m-1 rounded"
+                                />
+                                NodeJS
+                              </span>
+                            </li>
+                            <li>
+                              <span class="p-2">
+                                <img
+                                  src={socket}
+                                  alt="socket"
+                                  class="image-style m-1 rounded"
+                                />
+                                Socket.io
+                              </span>
+                            </li>
+                          </ul>
+                        </Card.Text>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </Card.Body>
+            </Card>
+         
+        </Row>
       <Row className="mt-5  justify-content-center">
-        {/* 1st card portfolio */}
+        {/* 2st card portfolio */}
         <Col className="procard mb-5" sm>
           <Card className="fircard" style={{}}>
             <Card.Img variant="top" src={portfolio} />
@@ -92,14 +177,14 @@ const Project = () => {
             </Card.Body>
           </Card>
         </Col>
-        
-        {/* 2nd todo */}
+
+        {/* 3nd todo */}
         <Col className="procard mb-5 " sm>
           <Card className="fircard" style={{}}>
             <Card.Img variant="top" src={todo} />
             <Card.Body>
               <Card.Title className="proheading">TODO-Application</Card.Title>
-              
+
               <Accordion>
                 <Card>
                   <Card.Header className="extendbutton">
@@ -116,11 +201,12 @@ const Project = () => {
                   </Card.Header>
                   <Accordion.Collapse eventKey="0">
                     <Card.Body>
-                      <Card.Title>discription</Card.Title>
+                      <Card.Title>Discription</Card.Title>
                       <Card.Text>
-                        An application which handle todo list of day to day life which done by using ReactJS
+                        An application which handle todo list of day to day life
+                        which done by using ReactJS
                       </Card.Text>
-                      <Card.Title>tech used</Card.Title>
+                      <Card.Title>Tech used</Card.Title>
                       <Card.Text>
                         <ul>
                           <li>
@@ -162,11 +248,9 @@ const Project = () => {
             </Card.Body>
           </Card>
         </Col>
-
-       
-      </Row >
+      </Row>
       <Row className="secrow  mt-5  justify-content-center">
-        {/* 3rd voice */}
+        {/* 4rd voice */}
         <Col className="procard mb-5" sm>
           <Card className="fircard" style={{}}>
             <Card.Img variant="top" src={voice} />
@@ -190,7 +274,8 @@ const Project = () => {
                     <Card.Body>
                       <Card.Title>Discription</Card.Title>
                       <Card.Text>
-                        An application which convert voice into text which is made by using JavaScript
+                        An application which convert voice into text which is
+                        made by using JavaScript
                       </Card.Text>
                       <Card.Title>Tech Used</Card.Title>
                       <Card.Text>
@@ -234,13 +319,15 @@ const Project = () => {
             </Card.Body>
           </Card>
         </Col>
-        
-        {/* 4th weather1 */}
+
+        {/* 5th weather1 */}
         <Col className="procard mb-5 " sm>
           <Card className="fircard" style={{}}>
             <Card.Img variant="top" src={weather1} />
             <Card.Body>
-              <Card.Title className="proheading">Weather-Application</Card.Title>
+              <Card.Title className="proheading">
+                Weather-Application
+              </Card.Title>
               <Accordion>
                 <Card>
                   <Card.Header className="extendbutton">
@@ -259,7 +346,8 @@ const Project = () => {
                     <Card.Body>
                       <Card.Title>Discription</Card.Title>
                       <Card.Text>
-                        An application which tells real time temperature of any city in world which made by using ReactJS
+                        An application which tells real time temperature of any
+                        city in world which made by using ReactJS
                       </Card.Text>
                       <Card.Title>Tech Used</Card.Title>
                       <Card.Text>
@@ -303,20 +391,12 @@ const Project = () => {
             </Card.Body>
           </Card>
         </Col>
-        </Row>
+      </Row>
     </Container>
   );
 };
 
 export default Project;
-
-
-
-
-
-
-
-
 
 //  {/* <Col className="mb-5  procard " sm>
 //           <Card className="seccard" style={{ width: "18rem" }}>
