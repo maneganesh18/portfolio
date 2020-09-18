@@ -1,0 +1,16 @@
+.profile {
+    max-width: 15em;
+    filter: brightness(90%);
+    border-color: black solid;
+    border-radius: 100%;
+  }
+
+.abo-main{
+    background-color:white;
+}
+.heade{
+    color: black;
+    border-top-width: 3px;
+    border-top-style: solid;
+    border-top-color: rgb(17, 171, 176);
+}

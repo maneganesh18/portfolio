@@ -1,0 +1,26 @@
+.skilmain{
+    background-color:  hsl(0, 0%, 96%);
+    border-top-width: 3px;
+    border-top-style: solid;
+    border-top-color: rgb(176, 49, 17);
+    padding-bottom: 5vw;
+ }
+.ico{
+    max-width: 5em;
+    
+    border: none;
+}
+
+Col{
+    justify-content: center;
+    align-self: center ;
+}
+
+.headline{
+    font-weight:  bold;
+}
+.headtext{
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(32, 2, 4);
+}

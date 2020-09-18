@@ -1,0 +1,9 @@
+
+.custom-img {
+    height: 100vh;
+    object-fit: cover;
+    filter: brightness(25%)
+  }
+img{
+    
+}

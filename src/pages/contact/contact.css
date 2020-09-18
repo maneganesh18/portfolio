@@ -1,0 +1,32 @@
+.contact-jumbotron {
+    border-radius: 3vw;
+}
+
+.cont{
+    background-image: url("./img/back.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 3vw;
+    justify-content: center;
+    
+    border-top-style: solid;
+    border-top-color: rgb(228, 209, 210);
+    border-bottom-style: solid;
+    border-bottom-color: rgb(228, 209, 210);
+    /* filter: brightness(90%) */
+}
+.textmain{
+    color: white;
+    filter: brightness(200%);
+    padding-bottom: 3vw;
+}
+
+.img-icon{
+    max-width: 4em;
+}
+
+.img-icon:hover{
+    font-size: 17px ;
+    filter: contrast(110%);
+
+}

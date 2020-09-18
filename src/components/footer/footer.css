@@ -1,0 +1,15 @@
+.foot{
+    background-color: #303030;
+    clear: both;
+    position: relative;
+    bottom: auto;
+    flex-shrink: 0;
+    padding-top: 0; 
+} 
+.last{
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 5vh;
+    font-size: calc(0.5em + 0.5vw); 
+}
