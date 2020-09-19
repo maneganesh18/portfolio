@@ -11,7 +11,7 @@ import insta from "./img/insta.png";
 import linkdin from "./img/linkdin.png";
 import twitter from "./img/twitter.png";
 
-const Contact = () => {
+const Contact = (props) => {
   return (
     <Container id="contact" className="cont" fluid={true}>
       <h1 className="textmain pt-3 text-center font-details-b pb-5">CONTACT</h1>
@@ -20,7 +20,7 @@ const Contact = () => {
           <Col className="d-flex justify-content-center flex-wrap">
             <div className="m-2">
               <a
-                href="https://www.facebook.com/ganesh.mane.39982"
+                href={props.state.links.facebook}
                 target="_blank"
                 // rel="noopener noreferrer"
               >
@@ -35,7 +35,7 @@ const Contact = () => {
             </div>
             <div className="m-2">
               <a
-                href="https://www.instagram.com/__gm8__/    "
+                href={props.state.links.instagram}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -49,7 +49,7 @@ const Contact = () => {
             </div>
             <div className="m-2">
               <a
-                href="https://www.linkedin.com/in/ganesh-mane-31925b1a9"
+                href={props.state.links.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -63,7 +63,7 @@ const Contact = () => {
             </div>
             <div className="m-2">
               <a
-                href="https://twitter.com/GaneshMane1899"
+                href={props.state.links.twitter}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -77,7 +77,7 @@ const Contact = () => {
             </div>
             <div className="m-2">
               <a
-                href="mailto:maneganesh212@gmail.com"
+                href={props.state.links.email}
                 target="_blank"
                 rel="noopener noreferrer"
               >

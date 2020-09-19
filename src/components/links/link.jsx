@@ -7,19 +7,19 @@ import {
   } from "react-icons/fa";
 import './link.css'
 
-const Links = () => {
+const Links = (props) => {
   return (
     <div className="icons-grp mt-5">
-      <a href="https://www.linkedin.com/in/ganesh-mane-31925b1a9">
+      <a href={props.props.links.linkedin}>
         <FaLinkedin className="icon" color="#eeeded" size="1em" />
       </a>
-      <a href="https://www.facebook.com/ganesh.mane.39982">
+      <a href={props.props.links.facebook}>
         <FaFacebookSquare className="icon" color="#eeeded" size="1em" />
       </a>
-      <a href="https://github.com/maneganesh18">
+      <a href={props.props.links.github}>
         <FaGithub className="icon" color="#eeeded" size="1em" />
       </a>
-      <a href="https://twitter.com/GaneshMane1899">
+      <a href={props.props.links.twitter}>
         <FaTwitterSquare className="icon" color="#eeeded" size="1em" />
       </a>
     </div>

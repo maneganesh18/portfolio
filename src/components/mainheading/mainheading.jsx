@@ -36,7 +36,7 @@ const TitleMessage = styled.h1`
  
 `;
 
-const MainHeading = () => (
+const MainHeading = (props) => (
   <TitleMessage>
     <div className="titleMessage">
       <div className="heading">
@@ -44,7 +44,7 @@ const MainHeading = () => (
           I'm
           <br />
           <span>
-            <strong>Ganesh Mane</strong>
+            <strong>{props.state.name.firstname} {props.state.name.lastname}</strong>
           </span>
         </div>
         <div className="sub">
@@ -58,7 +58,7 @@ const MainHeading = () => (
           />
         </div>
       </div>
-      <Links />
+      <Links props={props.state} />
     </div>
   </TitleMessage>
 );

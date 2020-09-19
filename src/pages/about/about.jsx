@@ -3,7 +3,7 @@ import { Container, Row, Col, Image, Button } from "react-bootstrap";
 import "./about.css";
 import my from "./img/my.jpeg";
 
-const About = () => {
+const About = (props) => {
   return (
     <Container className="abo-main" id="about" fluid={true}>
       <h1 className="pt-5 text-center font-details pb-3 heade">ABOUT ME</h1>
@@ -21,7 +21,7 @@ const About = () => {
         </Col>
         <Col xs={12} md={6}>
           <Row className=" align-items-start p-2 my-details rounded">
-            Hi there! I am <strong>&nbsp;Ganesh Limbaji Mane</strong>
+            Hi there! I am <strong>&nbsp;{props.state.name.firstname} {props.state.name.middlename} {props.state.name.lastname}</strong>
             <br />A passionate programmer born and brought up in India. Highly
             motivated and creative drive to software development.
             <br />
@@ -36,7 +36,7 @@ const About = () => {
              
               <div>
                 <a
-                  href="https://drive.google.com/file/d/1EPQrCq_c_AzgLpRldRuLm5f6fIH3x0--/view?usp=sharing"
+                  href={props.state.links.resume}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
