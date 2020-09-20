@@ -21,19 +21,22 @@ const About = (props) => {
         </Col>
         <Col xs={12} md={6}>
           <Row className=" align-items-start p-2 my-details rounded">
-            Hi there! I am <strong>&nbsp;{props.state.name.firstname} {props.state.name.middlename} {props.state.name.lastname}</strong>
-            <br />A passionate programmer born and brought up in India. Highly
-            motivated and creative drive to software development.
+            Hi there! I am{" "}
+            <strong>
+              &nbsp;{props.state.name.firstname} {props.state.name.middlename}{" "}
+              {props.state.name.lastname}
+            </strong>
+            <br /> A passionate technocrat seeking opportunity to utilise my
+            technology and leadership skills in an esteemed organization.
             <br />
-            Skilled in well designed, testable and efficient code writting in
-            various languages.
+            skil and adaptive nature made me proficient in programming languages
+            like ReactJs , JavaScript etc and hunger to learn is still in
+            progress.
             <br />
-            Specialize in thinking outside the box to find unique solutions to
-            difficult engineering problems with a belief that every problem has
-            a solution.
+            A quick learning Proactive, quick decision making, good problem
+            solving, quick decision making are my key strengths.
             <br /> <br />
             <Col className="d-flex justify-content-center flex-wrap">
-             
               <div>
                 <a
                   href={props.state.links.resume}
