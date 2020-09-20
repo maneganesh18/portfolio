@@ -203,8 +203,8 @@ const Project = () => {
                     <Card.Body>
                       <Card.Title>Discription</Card.Title>
                       <Card.Text>
-                        An application which handle todo list of day to day life
-                        which done by using ReactJS
+                        An application which handles todo list of day to day life
+                        which has done by using ReactJS
                       </Card.Text>
                       <Card.Title>Tech used</Card.Title>
                       <Card.Text>

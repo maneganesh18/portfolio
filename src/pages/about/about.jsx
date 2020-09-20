@@ -29,12 +29,12 @@ const About = (props) => {
             <br /> A passionate technocrat seeking opportunity to utilise my
             technology and leadership skills in an esteemed organization.
             <br />
-            skil and adaptive nature made me proficient in programming languages
-            like ReactJs , JavaScript etc and hunger to learn is still in
-            progress.
+            A quick learning skill and adaptive nature made me proficient in
+            programming languages like ReatJs & JavaScript etc and hunger to
+            learn is still in progress.
             <br />
-            A quick learning Proactive, quick decision making, good problem
-            solving, quick decision making are my key strengths.
+            Proactive,quick decision making & good problem solving abilities are my key
+            strengths.
             <br /> <br />
             <Col className="d-flex justify-content-center flex-wrap">
               <div>
