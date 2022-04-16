@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col, Image, Button } from "react-bootstrap";
+import { Container, Row, Col, Image } from "react-bootstrap";
 import "./skills.css";
 import react from "./img/react.png";
 import javascript from "./img/javascript.svg";
@@ -26,7 +26,7 @@ const Skill = () => {
               />
             </Row>
             <Row className="mt-3 mb-3 justify-content-center">
-              <p className="headline">React JS</p>
+              <div className="headline">React JS</div>
             </Row>
           </Col>
           <Col  sm>
@@ -39,7 +39,7 @@ const Skill = () => {
               />
             </Row>
             <Row className="mt-3 mb-3 justify-content-center">
-              <p className="headline">Javascript</p>
+              <div className="headline">Javascript</div>
             </Row>
           </Col >
           <Col  sm>
@@ -52,7 +52,7 @@ const Skill = () => {
               />
             </Row>
             <Row className="mt-3 mb-3 justify-content-center">
-              <p className="headline">Angular</p>
+              <div className="headline">Angular</div>
             </Row>
           </Col>
         </Row>
@@ -67,7 +67,7 @@ const Skill = () => {
               />
             </Row>
             <Row className="mt-3 mb-3 justify-content-center">
-              <p className="headline">Node.js</p>
+              <div className="headline">Node.js</div>
             </Row>
           </Col>
           <Col sm>
@@ -80,7 +80,7 @@ const Skill = () => {
               />
             </Row>
             <Row className="mt-3 mb-3 justify-content-center">
-              <p className="headline">Python</p>
+              <div className="headline">Python</div>
             </Row>
           </Col>
           <Col sm>
@@ -93,7 +93,7 @@ const Skill = () => {
               />
             </Row>
             <Row className="mt-3 mb-3 justify-content-center">
-              <p className="headline">My-SQL</p>
+              <div className="headline">My-SQL</div>
             </Row>
           </Col>
         </Row>

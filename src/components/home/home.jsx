@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 import Img1 from "./img/Img1.jpg";
 import Img2 from "./img/Img2.jpg";
@@ -8,7 +8,7 @@ import './home.css'
 const Home = () => {
   return (
    <div className="home">
-        <Carousel controls={false} indicators interval={2500} pauseOnHover={false}>
+        <Carousel controls={false} indicators interval={2500} pauseonhover='false'>
       <Carousel.Item>
         <img className="d-block w-100 custom-img" src={Img1} alt="First slide" />
       </Carousel.Item>

@@ -5,7 +5,6 @@ import "./contact.css"
 //icon
 
 import facebook from "./img/facebook.png";
-import github from "./img/github.png";
 import gmail from "./img/gmail.png";
 import insta from "./img/insta.png";
 import linkdin from "./img/linkdin.png";
@@ -27,9 +26,7 @@ const Contact = (props) => {
                 <img
                   src={facebook}
                   alt="HTML 5"
-                  class="image-style m-1 rounded"
-                  className="img-icon"
-
+                  className="image-style m-1 rounded img-icon"
                 />
               </a>
             </div>
@@ -42,8 +39,7 @@ const Contact = (props) => {
                   <img
                     src={insta}
                     alt="HTML 5"
-                    class="image-style m-1 rounded"
-                    className="img-icon"
+                    className="image-style m-1 rounded img-icon"
                   />
               </a>
             </div>
@@ -56,8 +52,7 @@ const Contact = (props) => {
                   <img
                     src={linkdin}
                     alt="HTML 5"
-                    class="image-style m-1 rounded"
-                    className="img-icon"
+                    className="image-style m-1 rounded img-icon"
                   />
               </a>
             </div>
@@ -70,8 +65,7 @@ const Contact = (props) => {
                   <img
                     src={twitter}
                     alt="HTML 5"
-                    class="image-style m-1 rounded"
-                    className="img-icon"
+                    className="image-style m-1 rounded img-icon"
                   />
               </a>
             </div>
@@ -84,8 +78,7 @@ const Contact = (props) => {
                   <img
                     src={gmail}
                     alt="HTML 5"
-                    class="image-style m-1 rounded"
-                    className="img-icon"
+                    className="image-style m-1 rounded img-icon"
                   />
               </a>
             </div>

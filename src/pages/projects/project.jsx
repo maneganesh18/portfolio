@@ -24,7 +24,7 @@ const Project = () => {
     <Container className="maincont" id="project" fluid={true}>
       {/* //main heading */}
       <Row className="mt-5 mb-5  justify-content-center">
-        <p className="mainheading">CHECK OUT SOME OF MY WORK.</p>
+        <div className="mainheading">CHECK OUT SOME OF MY WORK.</div>
       </Row>
       {/* 1st zoom clone */}
       <Row className="mt-5 mb-4 zoom justify-content-center">
@@ -36,15 +36,8 @@ const Project = () => {
                 <Accordion>
                   <Card>
                     <Card.Header className="extendbutton">
-                      <Accordion.Toggle as={Button} variant="" eventKey="0">
-                        <Button
-                          className="btnexpand"
-                          variant="success"
-                          size="lg"
-                          block
-                        >
+                      <Accordion.Toggle as={Button} className="btnexpand" variant="success"  size="lg" eventKey="0" block>
                           Project Details
-                        </Button>
                       </Accordion.Toggle>
                     </Card.Header>
                     <Accordion.Collapse eventKey="0">
@@ -57,42 +50,42 @@ const Project = () => {
                         <Card.Text>
                           <ul>
                             <li>
-                              <span class="p-2">
+                              <span className="p-2">
                                 <img
                                   src={html}
                                   alt="HTML 5"
-                                  class="image-style m-1 rounded"
+                                  className="image-style m-1 rounded"
                                 />
                                 HTML5
                               </span>
                             </li>
                             <li>
-                              <span class="p-2">
+                              <span className="p-2">
                                 <img
                                   src={bootstrap}
                                   alt="bootstrap"
-                                  class="image-style m-1 rounded"
+                                  className="image-style m-1 rounded"
                                   size="1vw"
                                 />
                                 BOOTSTRAP
                               </span>
                             </li>
                             <li>
-                              <span class="p-2">
+                              <span className="p-2">
                                 <img
                                   src={node}
                                   alt="node"
-                                  class="image-style m-1 rounded"
+                                  className="image-style m-1 rounded"
                                 />
                                 NodeJS
                               </span>
                             </li>
                             <li>
-                              <span class="p-2">
+                              <span className="p-2">
                                 <img
                                   src={socket}
                                   alt="socket"
-                                  class="image-style m-1 rounded"
+                                  className="image-style m-1 rounded"
                                 />
                                 Socket.io
                               </span>
@@ -117,15 +110,8 @@ const Project = () => {
               <Accordion>
                 <Card>
                   <Card.Header className="extendbutton">
-                    <Accordion.Toggle as={Button} variant="" eventKey="0">
-                      <Button
-                        className="btnexpand"
-                        variant="success"
-                        size="lg"
-                        block
-                      >
+                    <Accordion.Toggle as={Button}  className="btnexpand"  variant="success" size="lg" eventKey="0" block>
                         Project Details
-                      </Button>
                     </Accordion.Toggle>
                   </Card.Header>
                   <Accordion.Collapse eventKey="0">
@@ -138,32 +124,32 @@ const Project = () => {
                       <Card.Text>
                         <ul>
                           <li>
-                            <span class="p-2">
+                            <span className="p-2">
                               <img
                                 src={html}
                                 alt="HTML 5"
-                                class="image-style m-1 rounded"
+                                className="image-style m-1 rounded"
                               />
                               HTML5
                             </span>
                           </li>
                           <li>
-                            <span class="p-2">
+                            <span className="p-2">
                               <img
                                 src={bootstrap}
                                 alt="bootstrap"
-                                class="image-style m-1 rounded"
+                                className="image-style m-1 rounded"
                                 size="1vw"
                               />
                               BOOTSTRAP
                             </span>
                           </li>
                           <li>
-                            <span class="p-2">
+                            <span className="p-2">
                               <img
                                 src={react}
                                 alt="React"
-                                class="image-style m-1 rounded"
+                                className="image-style m-1 rounded"
                               />
                               React
                             </span>
@@ -188,15 +174,8 @@ const Project = () => {
               <Accordion>
                 <Card>
                   <Card.Header className="extendbutton">
-                    <Accordion.Toggle as={Button} variant="" eventKey="0">
-                      <Button
-                        className="btnexpand"
-                        variant="success"
-                        size="lg"
-                        block
-                      >
+                    <Accordion.Toggle as={Button}  className="btnexpand" variant="success" size="lg" eventKey="0" block>
                         Project Details
-                      </Button>
                     </Accordion.Toggle>
                   </Card.Header>
                   <Accordion.Collapse eventKey="0">
@@ -210,31 +189,31 @@ const Project = () => {
                       <Card.Text>
                         <ul>
                           <li>
-                            <span class="p-2">
+                            <span className="p-2">
                               <img
                                 src={html}
                                 alt="HTML 5"
-                                class="image-style m-1 rounded"
+                                className="image-style m-1 rounded"
                               />
                               HTML5
                             </span>
                           </li>
                           <li>
-                            <span class="p-2">
+                            <span className="p-2">
                               <img
                                 src={bootstrap}
                                 alt="Bootstrap"
-                                class="image-style m-1 rounded"
+                                className="image-style m-1 rounded"
                               />
                               BOOTSTRAP
                             </span>
                           </li>
                           <li>
-                            <span class="p-2">
+                            <span className="p-2">
                               <img
                                 src={react}
                                 alt="React"
-                                class="image-style m-1 rounded"
+                                className="image-style m-1 rounded"
                               />
                               React
                             </span>
@@ -259,15 +238,8 @@ const Project = () => {
               <Accordion>
                 <Card>
                   <Card.Header className="extendbutton">
-                    <Accordion.Toggle as={Button} variant="" eventKey="0">
-                      <Button
-                        className="btnexpand"
-                        variant="success"
-                        size="lg"
-                        block
-                      >
+                    <Accordion.Toggle as={Button} className="btnexpand" variant="success" size="lg" eventKey="0" block>
                         Project Details
-                      </Button>
                     </Accordion.Toggle>
                   </Card.Header>
                   <Accordion.Collapse eventKey="0">
@@ -281,31 +253,31 @@ const Project = () => {
                       <Card.Text>
                         <ul>
                           <li>
-                            <span class="p-2">
+                            <span className="p-2">
                               <img
                                 src={html}
                                 alt="HTML 5"
-                                class="image-style m-1 rounded"
+                                className="image-style m-1 rounded"
                               />
                               HTML5
                             </span>
                           </li>
                           <li>
-                            <span class="p-2">
+                            <span className="p-2">
                               <img
                                 src={bootstrap}
                                 alt="Bootstrap"
-                                class="image-style m-1 rounded"
+                                className="image-style m-1 rounded"
                               />
                               BOOTSTRAP
                             </span>
                           </li>
                           <li>
-                            <span class="p-2">
+                            <span className="p-2">
                               <img
                                 src={js}
                                 alt="JavaScript"
-                                class="image-style m-1 rounded"
+                                className="image-style m-1 rounded"
                               />
                               JavaScript
                             </span>
@@ -331,15 +303,8 @@ const Project = () => {
               <Accordion>
                 <Card>
                   <Card.Header className="extendbutton">
-                    <Accordion.Toggle as={Button} variant="" eventKey="0">
-                      <Button
-                        className="btnexpand"
-                        variant="success"
-                        size="lg"
-                        block
-                      >
+                    <Accordion.Toggle as={Button} className="btnexpand"  variant="success" size="lg" eventKey="0" block>
                         Project Details
-                      </Button>
                     </Accordion.Toggle>
                   </Card.Header>
                   <Accordion.Collapse eventKey="0">
@@ -353,31 +318,31 @@ const Project = () => {
                       <Card.Text>
                         <ul>
                           <li>
-                            <span class="p-2">
+                            <span className="p-2">
                               <img
                                 src={html}
                                 alt="HTML 5"
-                                class="image-style m-1 rounded"
+                                className="image-style m-1 rounded"
                               />
                               HTML5
                             </span>
                           </li>
                           <li>
-                            <span class="p-2">
+                            <span className="p-2">
                               <img
                                 src={bootstrap}
                                 alt="Bootstrap"
-                                class="image-style m-1 rounded"
+                                className="image-style m-1 rounded"
                               />
                               Bootstrap
                             </span>
                           </li>
                           <li>
-                            <span class="p-2">
+                            <span className="p-2">
                               <img
                                 src={react}
                                 alt="React"
-                                class="image-style   m-1 rounded"
+                                className="image-style   m-1 rounded"
                               />
                               React
                             </span>

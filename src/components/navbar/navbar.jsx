@@ -1,6 +1,6 @@
-import React, { Component } from "react";
+import React from "react";
 import { Navbar, Nav, Button } from "react-bootstrap";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 import "./navbar.css";
 
 const Navbarmain = () => {
@@ -13,71 +13,70 @@ const Navbarmain = () => {
       variant="dark"
       className="animate-navbar nav-theme justify-content-between"
     >
-      {/* <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand> */}
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="m-auto">
-          <Nav.Link className="px-3" href="#home">
-            <Link
-              activeClass="active"
-              to="home"
-              spy={true}
-              smooth={true}
-              offset={-50}
-              duration={500}
-            >
+          <Link
+            className="px-3"
+            href="#home"
+            activeClass="active"
+            to="home"
+            spy={true}
+            smooth={true}
+            offset={-50}
+            duration={500}
+          >
             <Button className="homebtn">Home</Button>
-            </Link>
-          </Nav.Link>
-          <Nav.Link className="px-3" href="#about">
-            <Link
-              activeClass="active"
-              to="about"
-              spy={true}
-              smooth={true}
-              offset={-50}
-              duration={500}
-            >
-             <Button className="homebtn">About</Button>
-            </Link>
-          </Nav.Link>
-          <Nav.Link className="px-3" href="#skill">
+          </Link>
           <Link
-              activeClass="active"
-              to="skill"
-              spy={true}
-              smooth={true}
-              offset={-50}
-              duration={500}
-            >
-              <Button className="homebtn">Skill</Button>
-            </Link>
-          </Nav.Link>
-          <Nav.Link className="px-3" href="#project">
+            className="px-3"
+            href="#about"
+            activeClass="active"
+            to="about"
+            spy={true}
+            smooth={true}
+            offset={-50}
+            duration={500}
+          >
+            <Button className="homebtn">About</Button>
+          </Link>
           <Link
-              activeClass="active"
-              to="project"
-              spy={true}
-              smooth={true}
-              offset={-50}
-              duration={500}
-            >
-              <Button className="homebtn">Project</Button>
-            </Link>
-          </Nav.Link>
-           <Nav.Link className="px-3" href="#home">
-            <Link
-              activeClass="active"
-              to="contact"
-              spy={true}
-              smooth={true}
-              offset={-50}
-              duration={500}
-            >
+            className="px-3"
+            href="#skill"
+            activeClass="active"
+            to="skill"
+            spy={true}
+            smooth={true}
+            offset={-50}
+            duration={500}
+          >
+            <Button className="homebtn">Skill</Button>
+          </Link>
+          <Link
+            className="px-3"
+            href="#project"
+            activeClass="active"
+            to="project"
+            spy={true}
+            smooth={true}
+            offset={-50}
+            duration={500}
+          >
+            <Button className="homebtn">Project</Button>
+          </Link>
+          <Link
+            className="px-3"
+            href="#contact"
+            activeClass="active"
+            to="contact"
+            spy={true}
+            smooth={true}
+            offset={-50}
+            duration={500}
+          >
             <Button className="homebtn">Contact</Button>
-            </Link>
-          </Nav.Link>
-          
+          </Link>
+
         </Nav>
       </Navbar.Collapse>
     </Navbar>
@@ -85,4 +84,3 @@ const Navbarmain = () => {
 };
 
 export default Navbarmain;
-  
